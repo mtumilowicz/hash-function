@@ -31,7 +31,7 @@ typically expected to be practically non-invertible.
 # description
 The value `31` was chosen because it is an odd prime. If it were even and the 
 multiplication overflowed, information would be lost, as multiplication by `2` 
-is equivalent to shifting. The advantage of using a prime is less clear, 
-but it is traditional. A nice property of `31` is that the multiplication can 
-be replaced by a shift and a subtraction for better performance: 
-`31 * i == (i << 5)`.
+is equivalent to shifting. A nice property of `31` is that the multiplication can 
+be replaced by a shift and a subtraction for better performance:  
+`31 * i == (i << 5)`.  
+The advantage of using a prime is quite clear.
