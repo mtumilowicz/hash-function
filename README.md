@@ -1,4 +1,6 @@
 # hash-function
+The main goal of this project is to provide simple example of hash function 
+and basic description.
 
 # definition
 **Hash function** is any function that can be used to map data of arbitrary 
