@@ -1,4 +1,3 @@
-import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -15,12 +14,18 @@ public class StringHashFunctionTest {
 
     @Test
     public void hash_empty() {
-        assertEquals(0, StringHashFunction.hash(StringUtils.EMPTY));
+        assertEquals(0, StringHashFunction.hash(""));
     }
 
     @Test
     public void hash_abc() {
         String test = "abc";
+        assertEquals(test.hashCode(), StringHashFunction.hash(test));
+    }
+
+    @Test
+    public void hash_whitespace() {
+        String test = " ";
         assertEquals(test.hashCode(), StringHashFunction.hash(test));
     }
 
