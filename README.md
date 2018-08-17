@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/mtumilowicz/hash-function.svg?branch=master)](https://travis-ci.com/mtumilowicz/hash-function)
 # hash-function
 The main goal of this project is to provide simple example of hash function 
 and basic description.
