@@ -28,7 +28,8 @@ with roughly the same probability.
   birthday paradox concerns the probability that, in a set of n randomly 
   chosen people, some pair of them will have the same birthday. However, 
   99.9% probability is reached with just 70 people, and 50% probability 
-  with 23 people.
+  with 23 people. For more info please refer my other github project:
+  https://github.com/mtumilowicz/java11-birthday-paradox
   
   _Remark_: The uniformity of the distribution of hash values can be evaluated 
   by the `chi-squared test`.
