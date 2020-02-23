@@ -41,6 +41,10 @@ have fixed size - such hashing is commonly used to accelerate data searches.
 typically expected to be practically non-invertible.
 
 # description
+```
+string.chars()
+      .reduce(0, (x, y) -> prime * x + y)
+```
 The value `31` was chosen because it is an odd prime. If it were even and the 
 multiplication overflowed, information would be lost, as multiplication by `2` 
 is equivalent to shifting. A nice property of `31` is that the multiplication can 
