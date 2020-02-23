@@ -26,8 +26,8 @@ with roughly the same probability.
   _Remark_: `birthday paradox` shows that a small number of collisions is 
   virtually inevitable: in probability theory, the birthday problem or 
   birthday paradox concerns the probability that, in a set of n randomly 
-  chosen people, some pair of them will have the same birthday. However, 
-  99.9% probability is reached with just 70 people, and 50% probability 
+  chosen people, some pair of them will have the same birthday. 99.9% 
+  probability is reached with just 70 people, and 50% probability 
   with 23 people. For more info please refer my other github project:
   https://github.com/mtumilowicz/java11-birthday-paradox
   
