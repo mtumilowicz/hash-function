@@ -43,7 +43,7 @@ typically expected to be practically non-invertible.
 # description
 ```
 string.chars()
-      .reduce(0, (x, y) -> prime * x + y)
+      .reduce(0, (x, y) -> 31 * x + y)
 ```
 The value `31` was chosen because it is an odd prime. If it were even and the 
 multiplication overflowed, information would be lost, as multiplication by `2` 
